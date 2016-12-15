@@ -1,7 +1,7 @@
-var css = '';
+var css = [];
 
 module.exports = function(cssCode) {
-  css += cssCode;
+  css.push(cssCode);
 }
 
 module.exports.getData = function() {
